@@ -6,5 +6,6 @@
 
 ## Skills
 
-| Skill | 路径 ｜ 描述 |
-| xxxx | xxxx | xxxx |
+| Skill | 路径 | 描述 |
+| ----- | ---- | ---- |
+| xxxx  | xxxx | xxxx |

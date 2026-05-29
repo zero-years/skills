@@ -7,4 +7,5 @@ Reusable AI assistant skills for code review
 ## Skills
 
 | Skill | Path ｜ Description |
-| xxxx | xxxx | xxxx |
+| ----- | ------------------- | ---- |
+| xxxx  | xxxx                | xxxx |
