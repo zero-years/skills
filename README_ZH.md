@@ -6,6 +6,6 @@
 
 ## Skills
 
-| Skill  | 路径   | 描述   |
-| ------ | ------ | ------ |
-| `xxxx` | `xxxx` | `xxxx` |
+| Skill        | 路径                                     | 描述           |
+| ------------ | ---------------------------------------- | -------------- |
+| `git-commit` | [`skills/git-commit`](skills/git-commit) | Git 的提交规范 |

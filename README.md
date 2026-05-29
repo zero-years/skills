@@ -6,6 +6,6 @@ Reusable AI assistant skills for code review
 
 ## Skills
 
-| Skill  | Path ｜ Description |
-| ------ | ------------------- | ------ |
-| `xxxx` | `xxxx`              | `xxxx` |
+| Skill        | Path ｜ Description                      |
+| ------------ | ---------------------------------------- | -------------------------------- |
+| `git-commit` | [`skills/git-commit`](skills/git-commit) | Git commit submission guidelines |
