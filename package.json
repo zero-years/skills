@@ -1,0 +1,31 @@
+{
+  "name": "skills",
+  "version": "0.0.1",
+  "packageManager": "pnpm@10.30.3",
+  "description": "Collection of agent skill",
+  "author": "https://github.com/zero-years/skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "reactor",
+    "ai",
+    "agents",
+    "codex",
+    "claude-code",
+    "skills",
+    "rules",
+    "mcp",
+    "cursor",
+    "claude code",
+    "best-practices"
+  ],
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix .",
+    "gen:shadcn-vue": "tsx scripts/generate-shadcn-vue-references.ts"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^7.7.3",
+    "eslint": "^10.0.3",
+    "tsx": "^4.21.0"
+  }
+}
