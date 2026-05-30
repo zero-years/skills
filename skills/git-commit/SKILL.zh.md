@@ -7,29 +7,30 @@ description: Git 提交规范、先重置工作流程以及常用命令快速参
 
 ## 概览
 
-生成语义准确的提交信息。
-当通用规范与仓库的提交规范冲突时，优先使用仓库规范。
+生成语义准确的提交信息
+当通用规范与仓库的提交规范冲突时，优先使用仓库规范
 
 ## 工作流程
 
 1. 先检查更改，再书写提交信息
 
-2. 优先读取项目仓库中的规则，如果仓库中没有规则，则使用以下的规范书写提交信息
+2. 如果项目中存在 `scripts/verify-commit.js`、`.github/commit-convention.md`、`commitlint` 则优先读取项目仓库中的规则
+   如果仓库中没有规则，则使用以下的规范书写提交信息
 
 ```
 <type>(<scope>): <subject>
 ```
 
-3. 选择最准确的 `type`
+3. 选择最准确的 type
    优先读取仓库中的 type 类型，如果仓库中没有 type 类型，则 type 只能为:
 
 ```
-feat 、fix 、style 、docs 、perf 、chore 、revert 、build 、refactor
+feat 、fix 、style 、docs 、perf 、chore 、revert 、build 、refactor、test、ci
 ```
 
-4. 按 `Angular` 风格撰写 `subject。`
+4. 按 `Angular` 风格撰写 subject
    保持祈使语气、语义具体、结尾不加句号。
-   除非遇到专有名词、品牌名或标识符，否则 `type(scope):` 后的 subject 尽量使用小写开头。
+   除非遇到专有名词、品牌名或标识符，否则 `type(scope):` 后的 subject 尽量使用小写开头
 
 5. 返回前先对照项目仓库自检，如果仓库没有自检规则，则按照以下规则自检:
 
@@ -51,6 +52,8 @@ feat 、fix 、style 、docs 、perf 、chore 、revert 、build 、refactor
 | `revert`   | 回滚修改或分支                                 |
 | `build`    | 修改构建流程、打包逻辑、构建工具或依赖构建步骤 |
 | `refactor` | 重构代码，不产生新的功能 和 修复问题代码       |
+| `test`     | 新增或修改测试代码                             |
+| `ci`       | 修改持续集成配置。                             |
 
 ## subject 规范
 

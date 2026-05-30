@@ -1,6 +1,6 @@
 ---
 name: git-commit
-description: Git commit conventions, reset-first workflow, and quick reference for common commands. Trigger on any Git-related question, including commits, branches, reset, undo, conflicts, and more.
+description: Git commit conventions, reset-first workflow, and quick reference for common commands. Trigger on any Git-related question, such as commits, branches, reset, undo, conflicts, and more.
 ---
 
 # Git Commit Messages
@@ -8,20 +8,20 @@ description: Git commit conventions, reset-first workflow, and quick reference f
 ## Overview
 
 Generate semantically accurate commit messages.
-If the general convention conflicts with the repository's own commit rules, always follow the repository rules first.
+If the general convention conflicts with the repository's own commit conventions, always follow the repository rules first.
 
 ## Workflow
 
 1. Inspect the changes before writing the commit message.
 
-2. Prefer reading the repository's local rules first. If the repository does not define any, use the following commit format:
+2. Prefer reading the repository's local rules first. If the repository does not define any rules, use the following format to write the commit message:
 
 ```
 <type>(<scope>): <subject>
 ```
 
 3. Choose the most accurate `type`.
-   Prefer repository-defined types first. If the repository does not define its own types, `type` must be one of:
+   Prefer repository-defined types first. If the repository does not define its own types, `type` can only be one of:
 
 ```
 feat, fix, style, docs, perf, chore, revert, build, refactor
@@ -42,7 +42,7 @@ feat, fix, style, docs, perf, chore, revert, build, refactor
 
 | Type       | When to use it |
 | ---------- | -------------- |
-| `feat`     | Add a new feature or new content |
+| `feat`     | Add a new feature, branch, or content |
 | `fix`      | Fix a bug or error |
 | `style`    | Change styles or formatting without changing logic |
 | `docs`     | Documentation-only changes |
@@ -57,7 +57,7 @@ feat, fix, style, docs, perf, chore, revert, build, refactor
 - Use the structure `type(scope): subject` or `type(scope)!: subject`.
 - Use lowercase, no period, and imperative mood.
 - Keep it concise and readable.
-- If the changes include multiple unrelated pieces of work, recommend splitting them into separate commits.
+- If the changes include multiple pieces of work, advise splitting them into separate commits.
 - Avoid vague messages such as `update file`, `add file`, or `fix bug`.
 - Use `!` only when the change introduces a breaking API, breaking behavior, or breaking contract.
 
