@@ -40,17 +40,19 @@ feat, fix, style, docs, perf, chore, revert, build, refactor
 
 ## Commit Types
 
-| Type       | When to use it |
-| ---------- | -------------- |
-| `feat`     | Add a new feature, branch, or content |
-| `fix`      | Fix a bug or error |
-| `style`    | Change styles or formatting without changing logic |
-| `docs`     | Documentation-only changes |
-| `perf`     | Performance improvements |
-| `chore`    | Changes that do not fit a more specific type |
-| `revert`   | Revert a previous change or branch |
+| Type       | When to use it                                                                   |
+| ---------- | -------------------------------------------------------------------------------- |
+| `feat`     | Add a new feature, branch, or content                                            |
+| `fix`      | Fix a bug or error                                                               |
+| `style`    | Change styles or formatting without changing logic                               |
+| `docs`     | Documentation-only changes                                                       |
+| `perf`     | Performance improvements                                                         |
+| `chore`    | Changes that do not fit a more specific type                                     |
+| `revert`   | Revert a previous change or branch                                               |
 | `build`    | Changes to build flow, packaging logic, build tooling, or dependency build steps |
-| `refactor` | Code refactoring that neither adds features nor fixes bugs |
+| `refactor` | Code refactoring that neither adds features nor fixes bugs                       |
+| `test`     | Add or modify test code                                                          |
+| `ci`       | Modify the continuous integration configuration                                  |
 
 ## Subject Rules
 
