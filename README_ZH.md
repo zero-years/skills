@@ -6,6 +6,7 @@
 
 ## Skills
 
-| Skill        | 路径                                     | 描述           |
-| ------------ | ---------------------------------------- | -------------- |
-| `git-commit` | [`skills/git-commit`](skills/git-commit) | Git 的提交规范 |
+| Skill                                       | 路径                                                                                                   | 描述                     |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------ |
+| `git-commit`                                | [`skills/git-commit`](skills/git-commit)                                                               | Git 的提交规范           |
+| `code-convergence-and-abstraction-boundary` | [`skills/code-convergence-and-abstraction-boundary`](skills/code-convergence-and-abstraction-boundary) | 代码收敛性和抽象边界纪律 |
