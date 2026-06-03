@@ -1,0 +1,4 @@
+interface:
+  display_name: Git Commit
+  short_description: Generate valid Git commit messages
+  default_prompt: Use $git-commit to draft a valid commit message from my staged changes.
